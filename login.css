@@ -1,0 +1,80 @@
+*{
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 15px;
+}
+
+.back{
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: aqua;
+}
+
+.main-container{
+    /* background-image: linear-gradient(to right,
+    rgba(88, 87, 87, 0.7),
+    rgba(122, 115, 115, 0.7)),
+    url(images/background.jpg); */
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-color: rgb(99, 98, 98);
+    height: 94vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.login-container{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 400px;
+    height: 500px;
+    background-color: hsla(0, 20%, 99%, 0.769);
+}
+
+.username{
+    position:relative;
+    top: 5rem;
+    height: 3rem;
+    margin-bottom: 2rem;
+}
+.username-input{
+    width: 15rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    border-radius: 6rem;
+    outline: none;
+    padding-left: 1rem;
+}
+.password-input{
+    outline: none;
+    width: 15rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    border-radius:6rem;
+    padding: 1rem;
+}
+
+.button{
+    position: absolute;
+    top: 20rem;
+    left: 11rem;
+   
+}
+.login-btn{
+    padding: 0.5rem 1rem ;
+    left: 4rem;
+    border-radius: 4rem;
+    background-color: aqua;
+}
+

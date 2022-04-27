@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign </title>
+    <link rel="stylesheet" href="signup.css" type="text/css">
+</head>
+<body>
+    <div class="main-container">
+        <a class="back" href="index.html">Back</a>
+        <div class="signup-container">
+            <div class="signUpText">
+                <h2 >Sign Up</h2>
+                <h4>Please fill this form  to create an account!</h4>
+            </div>
+            <form action="insert.php" method="post">
+                <div class="firstAndLastName">
+                 <div class="firstName">
+                     <input type="text" name="firstName" placeholder="First Name" required class="firstName-input">
+                 </div>
+                 <div class="lastName">
+                     <input type="text" name="lastName" class="lastName-input" required placeholder="Last Name">
+                 </div>
+                </div>
+                 <div class="email">
+                     <input type="text" name="email" class="email-input" required placeholder="Email">
+                 </div>
+                 <div class="password">
+                     <input type="text" name="password" class="password-input" required placeholder="Password">
+                 </div>
+                 <div class="passwordConfirm">
+                     <input type="text" name="passwordConfirm" class="passwordConfirm-input" required placeholder="Confirm Password">
+                 </div>
+           
+            <div class="termAndCondition">
+               
+                <h4>  <input type="checkbox" name="termsAndCondition" id="">I accept the <a href="#">Term of Use</a> & <a href="#">Privacy Policy.</a></h4>
+            </div>
+            <div class="signup">
+                <button class="signup-btn">Sign Up</button>
+            </div>
+        </form>
+
+        </div>
+    </div>
+</body>
+</html>
